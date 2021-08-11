@@ -4,7 +4,7 @@ function factorial(n) {
     while (n>0){
       result *=n--;
     }
-    alert (result);
+    return result;
   }
   factorial(0); // 1
   factorial(1); // 1
